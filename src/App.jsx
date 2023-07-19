@@ -3,6 +3,7 @@ import About2 from "./components/About2";
 import Benefits from "./components/Benefits";
 import Contact from "./components/Contact";
 import CustomCursor from "./components/CustomCursor";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Proof from "./components/Proof";
 import Stars from "./components/Stars";
@@ -22,6 +23,7 @@ function App() {
       <Proof/>
       <Work/>
       <Contact/>
+      <Footer/>
     </section>
   )
 }

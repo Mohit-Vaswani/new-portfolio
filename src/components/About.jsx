@@ -8,7 +8,7 @@ const About = () => {
             <div className="glow-button">
                 As a developer, My goal is to do 👇
             </div>
-            <h2 className="text-5xl md:text-7xl text-center">Work That Looks <br /> Premium</h2>
+            <h2 className="text-3xl sm:text-5xl md:text-7xl text-center">Work That Looks <br /> Premium</h2>
             <p className="text-center w-500 mt-5 md:mx-auto px-10 text-lg sm:text-xl">
                 I like to develop products with high-end design and functionalities that stand out in the market and works suuuuper smoothly.
             </p>

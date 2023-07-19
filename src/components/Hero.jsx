@@ -7,7 +7,7 @@ import feather from "../assets/feather.svg"
 
 const Hero = () => {
   return (
-    <main className="flex flex-col dark-blue-bg h-full lg:h-screen pb-20 lg:pb-0">
+    <main className="flex flex-col dark-blue-bg h-full lg:h-screen">
       <div className="flex-all relative bottom-20">
         <img src={logo} alt="image" width={1500} height={1500} className="opacity-40 mohit-image" />
         <img src={gradient} alt="image" width={1500} height={1500} className="absolute top-16" />

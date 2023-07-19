@@ -1,12 +1,13 @@
 // // import Image from "next/image"
 import Stars from "./Stars"
+import imgb from "../assets/img.jpg"
 
 const About2 = () => {
   return (
     <div className="w-full h-full dark-blue-bg flex-all py-10 relative">
       <div className="shootingstar"/>
         <div className="w-9/12 sm:w-8/12 xl:w-4/12 flex gap-5 flex-col">
-        {/* <Image src="/img.jpg" alt="My Image" width={70} height={70} className="rounded-full"/> */}
+        <img src={imgb} alt="My Image" width={70} height={70} className="rounded-full"/>
         <div className="text-lg lg:text-xl">
             <p>Hey I am Mohit 😎</p> <br />
             <p>I am a Frontend Developer from India who is passionate about coding and building creative solutions. I started my journey by mastering HTML, CSS, and JavaScript. As I advanced, I enthusiastically adopted ReactJS as my main framework for projects.</p><br />

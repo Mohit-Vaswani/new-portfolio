@@ -48,7 +48,7 @@ const Proof = () => {
           </div>
         </div>
       </div>
-      <div className="horizontal-line absolute bottom-0"></div>
+      {/* <div className="horizontal-line absolute bottom-0"></div> */}
     </div>
   );
 }

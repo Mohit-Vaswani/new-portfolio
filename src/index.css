@@ -148,7 +148,7 @@ body {
 }
 
 .aboutbg {
-  background-image: url('/aboutbg.svg');
+  background-image: url('../src/assets/aboutbg.svg');
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -575,5 +575,26 @@ body {
   .mohit-image{
     position: relative;
       margin: 7rem 0rem;
+  }
+
+  .w-1300{
+    width: fit-content;
+  }
+
+  .tech-box {
+    width: 45px;
+    height: 45px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .grid-box{
+    width: auto;
+    min-width: 300px;
+  }
+
+  .tech-box {
+    width: 45px;
+    height: 45px;
   }
 }
